@@ -1,2 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const reversedString = str => str.split('').reverse().join('');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
