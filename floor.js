@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const randomBoolean = () => Math.random() >= 0.5;
+const merge = [...new Set(a.concat(b))];
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
