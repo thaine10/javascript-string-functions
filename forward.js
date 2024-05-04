@@ -1,2 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
