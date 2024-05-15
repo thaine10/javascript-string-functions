@@ -1,3 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const maxNumber = arr => Math.max(...arr);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const merge = (a, b) => a.concat(b);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = Object.assign({}, obj1, obj2);
