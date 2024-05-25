@@ -1,3 +1,2 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const merge = [...new Set([...a, ...b])];
-const updated = numbers.filter(element => element > 6);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log(1 +  -"1" + "2");
