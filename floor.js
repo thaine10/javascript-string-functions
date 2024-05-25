@@ -1,1 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log("1 || 2 = "+(1 || 2));
+const channelName = getChannelName(channel);
