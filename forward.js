@@ -1,2 +1,1 @@
-const merge = (a, b) => a.concat(b);
-var arr1 = "john".split('');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
