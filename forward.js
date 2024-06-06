@@ -1,3 +1,3 @@
+const isTabInView = () => !document.hidden;
 const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
