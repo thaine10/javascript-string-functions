@@ -1,3 +1,2 @@
-const fullName = name || 'buddy';
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-console.log( "A" - "B" + 2);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
