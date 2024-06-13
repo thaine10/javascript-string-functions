@@ -1,2 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const flattenedArray = arr => [].concat(...arr);
+console.log("0 && 1 = "+(0 && 1));
+const toggleBool = () => (bool = !bool);
