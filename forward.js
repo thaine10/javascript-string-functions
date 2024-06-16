@@ -1,3 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-console.log("0 && 1 = "+(0 && 1));
-const toggleBool = () => (bool = !bool);
+const merge = (a, b) => [...a, ...b];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const result = await makeHttpRequest(url);
