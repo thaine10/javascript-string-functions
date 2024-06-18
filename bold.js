@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-console.log(false == '0');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const randomBoolean = () => Math.random() >= 0.5;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
