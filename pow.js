@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const reversedString = str => str.split('').reverse().join('');
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+[foo, bar] = [bar, foo];
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
