@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const result = await makeHttpRequest(url);
+const toggleBool = () => (bool = !bool);
+console.log(1 +  +"2" + "2");
+console.log("0 && 1 = "+(0 && 1));
