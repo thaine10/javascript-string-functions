@@ -1,3 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-[foo, bar] = [bar, foo];
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
