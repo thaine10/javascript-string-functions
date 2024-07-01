@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const merge = (a, b) => [...a, ...b];
-const merge = [...new Set([...a, ...b])];
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const lastElement = arr => arr[arr.length - 1];
