@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const lastElement = arr => arr[arr.length - 1];
+const merge = [...new Set([...a, ...b])];
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
