@@ -1,1 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
