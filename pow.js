@@ -1,3 +1,2 @@
-const appName = getAppName(channel);
-var arr2 = arr1.reverse();
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+var arr3 = "jones".split('');
+var c = new Counter(); c.add(); c.add(); c.add();
