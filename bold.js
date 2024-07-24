@@ -1,3 +1,2 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const merge = Object.assign({}, obj1, obj2);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
