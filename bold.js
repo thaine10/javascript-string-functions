@@ -1,2 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
