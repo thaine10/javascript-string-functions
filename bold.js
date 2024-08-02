@@ -1,3 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isTabInView = () => !document.hidden;
+console.log(1 +  +"2" + "2");
