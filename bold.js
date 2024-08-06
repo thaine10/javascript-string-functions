@@ -1,3 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-var c = new Counter(); c.add(); c.add(); c.add();
-console.log(false == '0');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const currentDate = () => new Date().toLocaleDateString('en-US');
