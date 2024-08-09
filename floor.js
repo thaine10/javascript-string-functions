@@ -1,2 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const isEven = (num) => num % 2 === 0;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const removeDuplicates = (arr) => [...new Set(arr)];
